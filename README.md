@@ -93,8 +93,11 @@ ___
 1. If you are **rebuilding** a **new database**:
 
 	<code>perl xmlToCsv.pl directory\_to_data</code>
+
 	<code>mysql --local-infile -u username -p password databasename < createTablesToLoad.sql </code>
+	
 	<code>mysql --local-infile -u username -p password databasename < loadTables.sql </code>
+	
 	<code>mysql --local-infile -u username -p password databasename < database\_validater.sql </code>
 	
 
