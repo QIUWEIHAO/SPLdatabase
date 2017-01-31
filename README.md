@@ -110,6 +110,7 @@ ___
 	* Update the database with data of some day:
 	
 		<code>perl xmlToCsv.pl directory\_to_data YYYY MM DD</code>
+
 		<code>mysql --local-infile -u username -p password databasename < loadTables.sql </code>
 		
 3. Find **redundant records** / **Error** checking.
